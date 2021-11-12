@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HSP Workspace Demo</title>
+  <style>
+    body {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+    #menu {
+      display: flex;
+    }
+    #menu > div {
+      padding: 16px;
+    }
+    button {
+      background: none;
+      border: 1px solid #aaa;
+    }
+    button:focus {
+      outline: none;
+    }
+    .area-btn {
+      margin-right: 16px;
+      cursor: pointer;
+    }
+    .area-btn-selected {
+      color: crimson;
+      font-weight: 600;
+    }
+    #workspace-container {
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  
+  <div id="menu">
+    <div id="areaList"></div>
+    <div id="tools">
+      <button onclick="setFullscreen()">Fullscreen</button><br>
+      <button onclick="toggleAlbum()">Toggle Album</button><br>
+      <button onclick="setMosaic()">Mosaic</button><br>
+      <button onclick="setElastic()">Elastic</button>
+    </div>
+    <div id="resourceList">
+      <input
+        type="checkbox"
+        value="https://data.ucd.ie/api/img/manifests/ucdlib:33064"
+        data-type="iiif:manifest"
+      >
+        IIIF Manifest: Housing Plans
+      </input>
+      <br/>
+      <input
+        type="checkbox"
+        value="https://iiif.ub.uni-leipzig.de/0000004416/manifest.json"
+        data-type="iiif:manifest"
+      >
+        IIIF Manifest: Aristoteleskommentare
+      </input>
+    </div>
+  </div>
+  <div id="workspace-container"></div>
+
+  <script src="hsp-fo-workspace.js"></script>
+  <script>
+
+    const config = {
+      hspTeiEndpoint: 'http://b-dev1047.pk.de:9295/api/tei'
+    }
+
+    async function main() {
+      workspace =  createHspWorkspace(config)
+      
+      workspace.eventTarget.addEventListener('resourceRemoved', e => {
+        console.log('removed')
+        updateResourceList()  
+      })
+
+      workspace.addEventListener('resourceAdded', e => {
+        console.log(e.detail)
+      })
+
+      updateResourceList()
+      updateAreaList()
+      await workspace.mount({
+        main: document.getElementById('workspace-container')
+      })
+    }
+
+    function updateResourceList() {
+      const resourceIds = workspace.getResources().map(resource => resource.id)
+      resourceList.querySelectorAll('input').forEach(input => {
+        input.onchange = handleResourceClick
+        resourceIds.indexOf(input.value) > -1
+          ? input.checked = true
+          : input.checked = false
+      })
+    }
+
+    let areaCount = 2
+    function updateAreaList() {
+      areaList.innerHTML = ''
+      areaNames = workspace.getAreaNames()
+      currentName = workspace.getCurrentAreaName()
+
+      areaNames.forEach(name => {
+        const switchButton = document.createElement('span')
+        switchButton.innerText = name === 'default' ? 'area-1' : name
+        switchButton.classList.add('area-btn')
+        if (name === currentName)
+          switchButton.classList.add('area-btn-selected')
+        switchButton.onclick = e => {
+          workspace.setCurrentArea(name)
+          updateResourceList()
+          updateAreaList()
+        }
+
+        const deleteButton = document.createElement('button')
+        deleteButton.innerText = '-'
+        deleteButton.onclick = e => {
+          workspace.deleteArea(name)
+          updateAreaList()
+        }
+        
+        const areaTools = document.createElement('div')
+        name === 'default'
+          ? areaTools.append(switchButton)
+          : areaTools.append(switchButton, deleteButton)
+        
+        areaList.appendChild(areaTools)
+      })
+
+      const createButton = document.createElement('button')
+      createButton.innerText = '+'
+      createButton.onclick = e => {
+        workspace.createArea(`area-${areaCount++}`)
+        updateAreaList()
+      }
+
+      areaList.append(createButton)
+    }
+
+    function changeArea(e) {
+      e.preventDefault()
+      console.log('hello')
+    }
+
+    function handleResourceClick(e) {
+      const { checked, value } = e.target
+      const type = e.target.getAttribute('data-type')
+      checked
+        ? workspace.addResource({ id: value, type })
+        : workspace.removeResource({ id: value, type })
+    }
+
+    function setFullscreen() {
+      workspace.setFullscreen()
+    }
+
+    function toggleAlbum() {
+      workspace.toggleAlbum()
+    }
+
+    function setElastic() {
+      workspace.setWindowType('elastic')
+    }
+
+    function setMosaic() {
+      workspace.setWindowType('mosaic')
+    }
+
+    main()
+
+  </script>
+</body>
+</html>
