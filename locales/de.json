@@ -1,0 +1,360 @@
+{
+  "data": {
+    "desc-author-search": {
+      "__field__": "Beschreibungsautor"
+    },
+    "desc-publish-date-facet": {
+      "__field__": "Publikationsjahr"
+    },
+    "described-object-facet": {
+      "__field__": "Beschreibungen vorhanden",
+      "true": "Mit Beschreibungen"
+    },
+    "digitized-object-facet": {
+      "__field__": "Digitalisate vorhanden",
+      "true": "Mit Digitalisaten"
+    },
+    "dimensions-display": {
+      "__field__": "Abmessungen"
+    },
+    "format-display": {
+      "__field__": "Format"
+    },
+    "format-search": {
+      "__field__": "Format"
+    },
+    "fulltext-search": {
+      "__field__": "Volltext"
+    },
+    "has-notation-display": {
+      "__field__": "Notation enthalten"
+    },
+    "has-notation-search": {
+      "__field__": "Notation enthalten"
+    },
+    "height-facet": {
+      "__field__": "Höhe"
+    },
+    "id-search": {
+      "__field__": "HSP-ID"
+    },
+    "id": {
+      "__field__": "HSP-ID"
+    },
+    "idno-display": {
+      "__field__": "Signatur"
+    },
+    "idno-search": {
+      "__field__": "Signatur"
+    },
+    "illuminated-display": {
+      "__field__": "Buchschmuck enthalten"
+    },
+    "illuminated-search": {
+      "__field__": "Buchschmuck enthalten"
+    },
+    "language-display": {
+      "__field__": "Sprache",
+      "ara": "Arabisch",
+      "bg": "Bulgarisch",
+      "chu": "Kirchenslawisch",
+      "cs": "Tschechisch",
+      "cu": "Kirchenslawisch",
+      "da": "Dänisch",
+      "de": "Deutsch",
+      "de-at": "Deutsch (Österreich)",
+      "el": "Griechisch",
+      "en": "Englisch",
+      "es": "Spanisch",
+      "fa": "Persisch",
+      "fr": "Französisch",
+      "frm": "Mittelfranzösisch",
+      "gmh": "Mittelhochdeutsch",
+      "gml": "Mittelniederdeutsch",
+      "grc": "Altgriechisch",
+      "hbo": "Althebräisch",
+      "he": "Hebräisch",
+      "hu": "Ungarisch",
+      "is": "Isländisch",
+      "it": "Italienisch",
+      "ka": "Georgisch",
+      "la": "Latein",
+      "nl": "Niederländisch",
+      "no": "Norwegisch",
+      "oc": "Okzitanisch",
+      "pl": "Polnisch",
+      "ro": "Rumänisch",
+      "ru": "Russisch",
+      "sa": "Sanskrit",
+      "sk": "Slowakisch",
+      "sl": "Slowenisch",
+      "sv": "Schwedisch",
+      "tr": "Türkisch",
+      "yi": "Jiddisch",
+      "zh": "Chinesisch"
+    },
+    "language-facet": {
+      "__field__": "Sprache",
+      "ara": "Arabisch",
+      "bg": "Bulgarisch",
+      "chu": "Kirchenslawisch",
+      "cs": "Tschechisch",
+      "cu": "Kirchenslawisch",
+      "da": "Dänisch",
+      "de": "Deutsch",
+      "de-at": "Deutsch (Österreich)",
+      "el": "Griechisch",
+      "en": "Englisch",
+      "es": "Spanisch",
+      "fa": "Persisch",
+      "fr": "Französisch",
+      "frm": "Mittelfranzösisch",
+      "gmh": "Mittelhochdeutsch",
+      "gml": "Mittelniederdeutsch",
+      "grc": "Altgriechisch",
+      "hbo": "Althebräisch",
+      "he": "Hebräisch",
+      "hu": "Ungarisch",
+      "is": "Isländisch",
+      "it": "Italienisch",
+      "ka": "Georgisch",
+      "la": "Latein",
+      "nl": "Niederländisch",
+      "no": "Norwegisch",
+      "oc": "Okzitanisch",
+      "pl": "Polnisch",
+      "ro": "Rumänisch",
+      "ru": "Russisch",
+      "sa": "Sanskrit",
+      "sk": "Slowakisch",
+      "sl": "Slowenisch",
+      "sv": "Schwedisch",
+      "tr": "Türkisch",
+      "yi": "Jiddisch",
+      "zh": "Chinesisch"
+    },
+    "language-search": {
+      "__field__": "Sprache"
+    },
+    "leaves-count-display": {
+      "__field__": "Umfang"
+    },
+    "leaves-count-facet": {
+      "__field__": "Umfang"
+    },
+    "material-display": {
+      "__field__": "Beschreibstoff",
+      "chart": "Papier",
+      "linen": "Leinen",
+      "mixed": "Mischung verschiedener Materialien",
+      "palm": "Palmblätter",
+      "papyrus": "Papyrus",
+      "perg": "Pergament",
+      "perg_chart": "Pergament und Papier",
+      "Sonstiges": "Sonstiges",
+      "unknown": "Unbekannt",
+      "wood": "Holz"
+    },
+    "material-facet": {
+      "__field__": "Beschreibstoff",
+      "chart": "Papier",
+      "linen": "Leinen",
+      "mixed": "Mischung verschiedener Materialien",
+      "palm": "Palmblätter",
+      "papyrus": "Papyrus",
+      "perg": "Pergament",
+      "perg_chart": "Pergament und Papier",
+      "Sonstiges": "Sonstiges",
+      "unknown": "Unbekannt",
+      "wood": "Holz"
+    },
+    "material-search": {
+      "__field__": "Beschreibstoff"
+    },
+    "ms-identifier-search": {
+      "__field__": "Signatur"
+    },
+    "object-type-display": {
+      "__field__": "Objekttyp",
+      "codex": "Codex",
+      "collection": "Sammlung",
+      "composite": "Zusammengesetzte Handschrift",
+      "fragment": "Fragment",
+      "miscellany": "Sammelband",
+      "other": "Sonstiges",
+      "postcard": "Postkarte",
+      "printWithManuscriptParts": "Druck mit handschriftlichen Anteilen",
+      "sammelband": "Sammelband",
+      "scroll": "Rotulus",
+      "singleSheet": "Einblatthandschrift",
+      "unknown": "Unbekannt"
+    },
+    "object-type-facet": {
+      "__field__": "Objekttyp",
+      "codex": "Codex",
+      "collection": "Sammlung",
+      "composite": "Zusammengesetzte Handschrift",
+      "fragment": "Fragment",
+      "miscellany": "Sammelband",
+      "other": "Sonstiges",
+      "postcard": "Postkarte",
+      "printWithManuscriptParts": "Druck mit handschriftlichen Anteilen",
+      "sammelband": "Sammelband",
+      "scroll": "Rotulus",
+      "singleSheet": "Einblatthandschrift",
+      "unknown": "Unbekannt"
+    },
+    "object-type-search": {
+      "__field__": "Objekttyp"
+    },
+    "orig-date-facet": {
+      "__field__": "Entstehungszeit"
+    },
+    "orig-date-from-search": {
+      "__field__": "Entstehungszeit von"
+    },
+    "orig-date-lang-display": {
+      "__field__": "Entstehungszeit"
+    },
+    "orig-date-to-search": {
+      "__field__": "Entstehungszeit bis"
+    },
+    "orig-date-when-search": {
+      "__field__": "Entstehungszeit"
+    },
+    "orig-place-display": {
+      "__field__": "Entstehungsort/-raum"
+    },
+    "orig-place-facet": {
+      "__field__": "Entstehungsort/-raum"
+    },
+    "orig-place-search": {
+      "__field__": "Entstehungsort/-raum"
+    },
+    "repository-display": {
+      "__field__": "Einrichtung"
+    },
+    "repository-facet": {
+      "__field__": "Einrichtung"
+    },
+    "repository-search": {
+      "__field__": "Einrichtung"
+    },
+    "settlement-display": {
+      "__field__": "Ort"
+    },
+    "settlement-facet": {
+      "__field__": "Ort"
+    },
+    "settlement-search": {
+      "__field__": "Ort"
+    },
+    "status-display": {
+      "__field__": "Status"
+    },
+    "status-search": {
+      "__field__": "Status"
+    },
+    "subtype-display": {
+      "completeFromOriginal": "Digitalisat, vollständig",
+      "completeFromSurrogate": "Digitalisat von Sekundärform, vollständig",
+      "partFromOriginal": "Digitalisat, anteilig",
+      "partFromSurrogate": "Digitalisat von Sekundärform, anteilig",
+      "watermark": "Wasserzeichen"
+    },
+    "title-display": {
+      "__field__": "Titel"
+    },
+    "title-search": {
+      "__field__": "Titel"
+    },
+    "type": {
+      "__field__": "Dokumenttyp",
+      "hsp:description": "Handschriftenbeschreibung",
+      "hsp:object": "Basisdaten"
+    },
+    "width-facet": {
+      "__field__": "Breite"
+    }
+  },
+  "m3": {
+    "duplicatePlugin": {
+      "tooltip": {
+        "iiif": "Duplizieren",
+        "tei": "Duplizieren"
+      }
+    },
+    "hspPlugins": {
+      "window": {
+        "ariaLabel": "Handschriftenbeschreibung",
+        "error": "Fehler beim Laden der Beschreibung",
+        "loading": "Beschreibung wird geladen ..."
+      }
+    },
+    "permalinkPlugin": {
+      "tooltip": "Link zum Objekt",
+      "closeButton": "Schließen",
+      "copyLink": "Der Link zu diesem Objekt wurde in die Zwischenablage kopiert.",
+      "withTeiLink": {
+        "description": "Stabiler Zitierlink zu diesem Objekt",
+        "copyButton": "Permalink kopieren"
+      },
+      "withoutTeiLink": {
+        "description": "Direktlink zu diesem Objekt",
+        "copyButton": "Link kopieren"
+      }
+    },
+    "teiViewerPlugin": {
+      "window": {
+        "ariaLabel": "{{author}} ({{year}}) s- {{idno}}",
+        "close": "Schließen",
+        "maximize": "Maximieren",
+        "minimize": "Minimieren",
+        "navigation": "Navigation",
+        "sidebar": {
+          "ariaLabel": "Fenster-Seitenleiste",
+          "metadata": "Metadaten",
+          "search": "Suche",
+          "toc": "Inhaltsverzeichnis"
+        },
+        "title": {
+          "default": "Beschreibung",
+          "description": "{{qualifiedIdno}}. Beschreibung",
+          "descriptionComplete": "{{qualifiedIdno}}. Beschreibung von {{authors}} ({{year}})",
+          "descriptionWithAuthor": "{{qualifiedIdno}}. Beschreibung von {{authors}}",
+          "descriptionWithYear": "{{qualifiedIdno}}. Beschreibung ({{year}})"
+        },
+        "search": {
+          "phrase": "Phrasensuche",
+          "results": "Treffer",
+          "resultsOf": "von",
+          "removePhrase": "Suchphrase löschen",
+          "prevResult": "Vorheriges Ergebnis",
+          "nextResult": "Nächstes Ergebnis"
+        },
+        "metadataContent": {
+          "about": "Über dieses Element",
+          "fileDesc": "Allgemeine Informationen",
+          "Einrichtung": "Einrichtung",
+          "overview": "HSP-ID",
+          "handschrift": "Handschrift",
+          "Ort": "Ort",
+          "Signatur": "Signatur",
+          "Titel": "Titel"
+        }
+      }
+    },
+    "addManifestUrl": "Adresse eines externen Digitalisats",
+    "addManifestUrlHelp": "URL des IIIF-Manifests",
+    "addResource": "Inhalt hinzufügen",
+    "emptyResourceList": "Keine externen Inhalte hinzugefügt",
+    "welcome": "Arbeitsbereich"
+  },
+  "windowTypeDialog": {
+    "elastic": "Elastisch",
+    "elasticDescription": "Fenster innerhalb eines unbegrenzten Arbeitsbereichs frei anordnen und skalieren. Fenster können überlappen.",
+    "mosaic": "Mosaik",
+    "mosaicDescription": "Fenster innerhalb des sichtbaren Arbeitsbereichs anordnen und flächenfüllend skalieren.",
+    "title": "Ansichtsmodus wählen"
+  }
+}

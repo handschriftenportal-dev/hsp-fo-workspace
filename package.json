@@ -1,0 +1,87 @@
+{
+  "name": "hsp-fo-workspace",
+  "version": "1.9.9",
+  "description": "hsp-fo-workspace",
+  "license": "MIT",
+  "files": [
+    "dist/",
+    "declaration/",
+    "types.ts"
+  ],
+  "scripts": {
+    "clean": "shx rm -rf ./node_modules ./dist ./test-reports ./target ./declaration *.tgz",
+    "fix:prettier": "prettier --write \"./{src,test}/**/*.{css,md,js,jsx,json,ts,tsx}\"",
+    "lint": "eslint './{src,test}/**/*'",
+    "test": "jest --clearCache && jest",
+    "test:light": "jest --clearCache && jest --coverage=false",
+    "build:dev": "webpack --mode=development --watch",
+    "build": "rm -rf ./dist && webpack --mode=production && tsc --project tsconfig.declaration.json && webpack --mode=production --config webpack.config.standalone.js",
+    "start": "shx cp index.html dist/index.html && shx cp fixtures/* dist && http-server dist",
+    "deb": "echo not in use",
+    "version": "echo $npm_package_version | tr -d '\n'",
+    "artefactid": "echo $npm_package_name | tr -d '\n'",
+    "commit": "git-cz",
+    "prepare": "husky install"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/handschriftenportal-dev/hsp-fo-workspace.git"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.1",
+    "@commitlint/config-conventional": "^17.4.0",
+    "@fontsource/roboto": "^4.5.8",
+    "@material-ui/core": "^4.11.3",
+    "@testing-library/react": "^11.2.5",
+    "@types/css-mediaquery": "^0.1.0",
+    "@types/jest": "^27.0.0",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.2",
+    "@types/react-redux": "^7.1.16",
+    "@types/uuid": "^8.3.2",
+    "@typescript-eslint/eslint-plugin": "^4.17.0",
+    "@typescript-eslint/parser": "^4.17.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "commitizen": "^4.2.6",
+    "copy-webpack-plugin": "^8.1.0",
+    "css-loader": "^6.7.1",
+    "css-mediaquery": "^0.1.2",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "hsp-fo-mirador": "^1.7.6",
+    "hsp-web-module": "1.30.0",
+    "http-server": "^13.0.2",
+    "husky": "^8.0.0",
+    "jest": "^27.0.0",
+    "jest-junit": "^13.0.0",
+    "prettier": "^2.8.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.9",
+    "shx": "^0.3.3",
+    "style-loader": "^3.3.1",
+    "ts-jest": "^27.0.0",
+    "ts-loader": "^9.1.2",
+    "tsconfig-paths-webpack-plugin": "^3.5.1",
+    "typescript": "^4.2.3",
+    "webpack": "^5.25.0",
+    "webpack-cli": "^4.5.0"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0"
+  }
+}

@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TEI xml:lang="de" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:egXML="http://www.tei-c.org/ns/Examples" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Beschreibung von Leipzig, Universitätsbibliothek Leipzig, Ms 1672</title>
+                <respStmt>
+                    <resp>Beschrieben von</resp>
+                    <persName role="author">Christoph Mackert</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Elektronische Ausgabe nach TEI P5</edition>
+                <respStmt>
+                    <resp>Diese Datei wurde unter Anwendung des MXML-to-TEI-P5-Stylesheets, welches an der Herzog August Bibliothek Wolfenbüttel im Rahmen des Projektes "Handschriftenportal" gepflegt wird aus einem am 09.02.2022 14:56:40:680 erstellten HIDA-DOC1-XML-Dokument erstellt.</resp>
+                    <name type="org">Handschriftenportal</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                  
+                    
+                    
+                    <name type="org">Handschriftenportal</name>
+               </publisher>
+                <date when="2010" type="primary">2010</date>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+                     
+                        
+                        
+                        <p>http://creativecommons.org/licenses/by-sa/3.0/de/</p>
+                  </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Christoph Mackert</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+               
+                
+                
+                <date when="2010-09-09">09.09.2010</date>
+            </creation>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+               
+                
+                
+                <date when="2021-09-07">07.09.2021</date>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <msDesc status="extern" xml:id="HSP-bbc8743c-af65-3493-86bc-f2cb3953a357" xml:lang="de" subtype="medieval" type="hsp:description">
+                <msIdentifier>
+                    <settlement key="4a887b8a-68ac-39b0-8d9d-027bddedb06b">Leipzig</settlement>
+                    <repository key="444a6f1b-4bcb-3fa7-a96d-b6cafe49f0d0" ref="http://d-nb.info/gnd/30026-3 https://sigel.staatsbibliothek-berlin.de/suche/?isil=DE-15">Universitätsbibliothek Leipzig</repository>
+                    <collection>Ms</collection>
+                    <collection type="baseShelfmarkGroup">Ms 1601-1700</collection>
+                    <idno>Ms 1672</idno>
+                    <altIdentifier type="catalog">
+                        <idno>MXML-31569101</idno>
+                    </altIdentifier>
+                    <altIdentifier type="hsp-ID">
+                        <collection>Handschriftenportal Kulturobjektdokument-ID</collection>
+                        <idno>HSP-dfefd1a2-3b3a-3d76-a78e-be81b2367897</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head>
+                  
+                    
+                    
+                    <index indexName="norm_title">
+                        <term type="title">Statutenbuch des Kleinen Fürstenkollegs der Universität Leipzig</term>
+                    </index>
+                  
+                    
+                    
+                    <note type="headline"> Papier und Pergament ⋅ 26 Bl.  ⋅ 32,5 x 11 ⋅Leipzig ⋅ 15. Jh. </note>
+                  
+                    
+                    
+                    <title> Statutenbuch des Kleinen Fürstenkollegs der Universität Leipzig </title>
+                  
+                    
+                    
+                    <index indexName="norm_material">
+                        <term type="material">Papier / Pergament</term>
+                        <term type="material_type">paper</term>
+                        <term type="material_type">parchment</term>
+                    </index>
+                  
+                    
+                    
+                    <index indexName="norm_measure">
+                        <term type="measure">26 Bl.</term>
+                        <term type="measure_noOfLeaves">26</term>
+                    </index>
+                  
+                    
+                    
+                    <index indexName="norm_dimensions">
+                        <term type="dimensions">32,5 × 11</term>
+                        <term type="height">32,5</term>
+                        <term type="width">11</term>
+                        <term type="depth"/>
+                        <term type="dimensions_typeOfInformation">factual</term>
+                    </index>
+                  
+                    
+                    
+                    <index indexName="norm_format">
+                        <term type="format">folio</term>
+                        <term type="format_typeOfInformation">computed</term>
+                    </index>
+                  
+                    
+                    
+                    <index indexName="norm_format">
+                        <term type="format">long and narrow</term>
+                        <term type="format_typeOfInformation">computed</term>
+                    </index>
+                  
+                    
+                    
+                    <index indexName="norm_origPlace">
+                        <term type="origPlace">Leipzig</term>
+                        <term type="origPlace_gnd-ID">4035206-7</term>
+                    </index>
+                  
+                    
+                    
+                    <index indexName="norm_origDate">
+                        <term type="origDate">15. Jh.</term>
+                        <term type="origDate_notBefore">1401</term>
+                        <term type="origDate_notAfter">1500</term>
+                        <term type="origDate_type">datable</term>
+                    </index>
+                  
+                    
+                    
+                    <index indexName="norm_textLang">
+                        <term type="textLang">lateinisch</term>
+                        <term type="textLang-ID">la</term>
+                    </index>
+                  
+                    
+                    
+                    <index indexName="norm_form">
+                        <term type="form">codex</term>
+                    </index>
+                  
+                    
+                    
+                    <index indexName="norm_status">
+                        <term type="status">existent</term>
+                    </index>
+                  
+                    
+                    
+                    <index indexName="norm_decoration">
+                        <term type="decoration"/>
+                    </index>
+                  
+                    
+                    
+                    <index indexName="norm_musicNotation">
+                        <term type="musicNotation"/>
+                    </index>
+               </head>
+                <msContents>
+                    <textLang mainLang="und"/>
+                    <msItem xml:id="obj_31569103">
+                        <note type="text"> 1r-4r Statuta collegii minoris ; 4v-5v leer
+                            
+                            
+                            <index>
+                                <term type="Abschrift">Statuta collegii minoris</term>
+                            </index>
+                     </note>
+                    </msItem>
+                    <msItem xml:id="obj_31569104">
+                        <note type="text"> 6r-14v annalistische Einträge zum 
+                            
+                            
+                            <orgName>Kleinen Fürstenkolleg</orgName>
+                        
+                            
+                            
+                            <index>
+                                <term type="Abschrift">Annalen</term>
+                            </index>
+                     </note>
+                    </msItem>
+                    <msItem xml:id="obj_31569105">
+                        <note type="text"> 15r-21r Registrum librorum collegii principis 
+                            
+                            
+                            <index>
+                                <term type="Abschrift">Registrum librorum collegii principis</term>
+                            </index>
+                     </note>
+                    </msItem>
+                </msContents>
+                <history>
+                    <p> Provenienz: Leipzig, Universität, Kleines Fürstenkolleg</p>
+                    <p>
+                     
+                        
+                        
+                        <index>
+                            <term>Vorbesitz</term>
+                            <index>
+                                <term>
+                              
+                                    
+                                    
+                                    <placeName>Leipzig</placeName>
+                           </term>
+                                <index>
+                                    <term>
+                                 
+                                        
+                                        
+                                        <orgName key="31560007">Universität Leipzig, Kleines Fürstenkolleg</orgName>
+                              </term>
+                                </index>
+                            </index>
+                        </index>
+                  </p>
+                </history>
+                <additional>
+                    <listBibl>
+                        <bibl> Das älteste Statutenbuch des Kleinen Fürstenkollegs der Universität Leipzig, hg. von Karl Boysen, in: Beiträge zur Geschichte der Universität Leipzig im fünfzehnten Jahrhundert. Zur Feier des 500jährigen Jubiläums der Universität gewidmet von der Universitäts-Bibliothek, Leipzig 1909, Teil I. </bibl>
+                    </listBibl>
+                </additional>
+                <msPart type="binding" xml:id="obj_31569102">
+                    <msIdentifier>
+                        <idno>Einband</idno>
+                    </msIdentifier>
+                    <head>
+                     
+                        
+                        
+                        <index indexName="norm_title">
+                            <term type="title"/>
+                        </index>
+                     
+                        
+                        
+                        <note type="headline"/>
+                     
+                        
+                        
+                        <title/>
+                     
+                        
+                        
+                        <index indexName="norm_material">
+                            <term type="material"/>
+                            <term type="material_type"/>
+                        </index>
+                     
+                        
+                        
+                        <index indexName="norm_measure">
+                            <term type="measure"/>
+                            <term type="measure_noOfLeaves"/>
+                        </index>
+                     
+                        
+                        
+                        <index indexName="norm_dimensions">
+                            <term type="dimensions"/>
+                            <term type="height"/>
+                            <term type="width"/>
+                            <term type="depth"/>
+                            <term type="dimensions_typeOfInformation"/>
+                        </index>
+                     
+                        
+                        
+                        <index indexName="norm_format">
+                            <term type="format"/>
+                            <term type="format_typeOfInformation"/>
+                        </index>
+                     
+                        
+                        
+                        <index indexName="norm_origPlace">
+                            <term type="origPlace"/>
+                            <term type="origPlace_gnd-ID"/>
+                        </index>
+                     
+                        
+                        
+                        <index indexName="norm_origDate">
+                            <term type="origDate"/>
+                            <term type="origDate_notBefore"/>
+                            <term type="origDate_notAfter"/>
+                            <term type="origDate_type"/>
+                        </index>
+                     
+                        
+                        
+                        <index indexName="norm_textLang">
+                            <term type="textLang"/>
+                            <term type="textLang-ID"/>
+                        </index>
+                     
+                        
+                        
+                        <index indexName="norm_form">
+                            <term type="form">binding</term>
+                        </index>
+                     
+                        
+                        
+                        <index indexName="norm_status">
+                            <term type="status"/>
+                        </index>
+                     
+                        
+                        
+                        <index indexName="norm_decoration">
+                            <term type="decoration"/>
+                        </index>
+                     
+                        
+                        
+                        <index indexName="norm_musicNotation">
+                            <term type="musicNotation"/>
+                        </index>
+                  </head>
+                    <physDesc>
+                        <p> zeitgenössischer Koperteinband </p>
+                    </physDesc>
+                </msPart>
+                <msPart type="other">
+                    <msIdentifier>
+                        <idno>Sonstiges</idno>
+                    </msIdentifier>
+                    <p>
+                     
+                        
+                        
+                        <index>
+                            <term>Vorbesitz</term>
+                            <index>
+                                <term>
+                              
+                                    
+                                    
+                                    <placeName>Leipzig</placeName>
+                           </term>
+                                <index>
+                                    <term>
+                                 
+                                        
+                                        
+                                        <orgName key="31560007">Universität Leipzig, Kleines Fürstenkolleg</orgName>
+                              </term>
+                                </index>
+                            </index>
+                        </index>
+                     
+                        
+                        
+                        <index>
+                            <term>
+                           
+                                
+                                
+                                <orgName key="31560007">Universität Leipzig, Kleines Fürstenkolleg</orgName>
+                        </term>
+                        </index>
+                  </p>
+                </msPart>
+            </msDesc>
+        </body>
+    </text>
+</TEI>
