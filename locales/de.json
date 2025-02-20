@@ -1,0 +1,296 @@
+{
+  "jumpToWindowDialog": {
+    "title": "Offene Fenster"
+  },
+  "m3": {
+    "addManifestUrl": "Adresse eines externen Digitalisats",
+    "addManifestUrlHelp": "URL des IIIF-Manifests",
+    "addResource": "Inhalt hinzufügen",
+    "downloadPlugin": {
+      "back": "Zurück",
+      "close": "Schließen",
+      "color": "Farbig",
+      "dlCreate": "Zip wird erzeugt",
+      "dlFinish": "Zip ist fertig",
+      "download": "Download",
+      "grey": "Grau",
+      "image": "Bild",
+      "images": "Einzelbilder",
+      "menu": "Download-Menü",
+      "multipleImages": "Mehrere Bilder",
+      "otherOptions": "Andere Downloadoptionen",
+      "pages": "Seitenzahlen:",
+      "pdf": "PDF-Download",
+      "pdfPlugin": {
+        "abort": "Abbrechen",
+        "createPdf": "Erzeuge PDF",
+        "downloadPdf": "Download PDF",
+        "fileSize": "Dateigröße: ",
+        "finishedPdf": "PDF ist fertig",
+        "license": "Lizenz: ",
+        "manifestUrl": "Manifest-Url: ",
+        "pdfBtn": "PDF",
+        "pdfInSystemHeadline": "Zugehörige Handschrift im HSP öffnen: ",
+        "pdfNotSystemHeadline": "Zugehöriges Digitalisat im HSP öffnen: ",
+        "pdfText": "Wählen Sie die Qualität und die gewünschten Seiten aus.",
+        "quality": "Qualität in PPI:",
+        "requiredStatement": "Zuschreibung: ",
+        "subtitleMetaPage": "Fortsetzung zu ",
+        "toc": "Strukturdaten",
+        "workingPdf": "PDF wird erzeugt"
+      },
+      "toastMsg": "Der Download wurde gestartet. Das Herunterladen kann je nach Dateigröße bis zu mehrere Minuten in Anspruch nehmen.",
+      "zip": "Zip-Download im JPG-Format",
+      "zipText": "Laden Sie mehrere Bilder als Zip herunter. \nDer Download wird automatisch im Hintergrund gestartet."
+    },
+    "duplicatePlugin": {
+      "tooltip": {
+        "iiif": "Duplizieren",
+        "tei": "Duplizieren"
+      }
+    },
+    "emptyResourceList": "Keine externen Inhalte hinzugefügt",
+    "errorPlugin": {
+      "failedMsg": "Beim Laden und Verarbeiten der durch die bestandshaltende Einrichtung bereitgestellten Bilddaten ist ein Fehler aufgetreten. <br> Besteht das Problem auch nach erneutem Versuch, melden Sie das betroffene Digitalisat bitte an das <Link>Handschriftenportal-Team</Link> oder direkt an die jeweilige Institution.",
+      "mailBody": "Liebes Handschriftenportal-Team, \n\n beim Öffnen eines Digitalisat kam es leider zu Problemen beim Laden und Verabeiten der IIIF-Daten aus der bestandshaltenden Einrichtung. \n Bitte prüfen Sie mit der entsprechenden Einrichtung, wie sich der Fehler beheben lässt. \n\n URL des betroffenen Manifests: {{manifestUrl}}  \n\n Bitte zu ergänzen Sie möglichst folgende weitere Informationen \n Signatur der Handschrift: \n Einrichtung: \n Weitere Beschreibung (Wartezeit, Besonderheiten):",
+      "mailSubject": "[Fehlermeldung] Ladeprobleme bei IIIF-Manifest",
+      "snackbarMsg": "Das Laden des Manifests dauert länger als erwartet. Bitte haben Sie etwas Geduld."
+    },
+    "hspAnnotation": {
+      "additionalAnnotations": "<Typography>Weitere Annotationen</Typography> zu diesem Digitalisat:",
+      "content": "Inhalte",
+      "control": "Steuerung",
+      "create": "Annotation erstellen",
+      "itemTooltip": "Für Ihren Account sichtbar",
+      "navigation": {
+        "firstAnnotation": "Erste Annotation",
+        "lastAnnotation": "Letzte Annotation",
+        "navigation": "Navigation",
+        "nextAnnotation": "Weiter",
+        "previousAnnotation": "Zurück"
+      },
+      "overview": "Übersicht",
+      "pages": "Annotierte Seiten",
+      "publishedAnnotations": "<Typography>Publizierte Annotationen</Typography> zu diesem Digitalisat:",
+      "showAllAnnos": "Zeige alle",
+      "visibility": "Sichtbarkeit umschalten"
+    },
+    "hspPlugins": {
+      "sidebar": {
+        "backToSearch": "Zur Handschrift",
+        "data": {
+          "dimensions-display": {
+            "__field__": "Abmessungen"
+          },
+          "format-display": {
+            "__field__": "Format",
+            "folio": "Folio",
+            "larger than folio": "Größer als Folio",
+            "long and narrow": "Schmalformat",
+            "oblong": "Querformat",
+            "octavo": "Oktav",
+            "other": "Sonstiges",
+            "quarto": "Quart",
+            "smaller than octavo": "Kleiner als Oktav",
+            "square": "Quadratformat"
+          },
+          "former-ms-identifier-display": { "__field__": "Vorbesitz" },
+          "group-id": { "__field__": "HSP-ID" },
+          "has-notation-display": {
+            "__field__": "Musiknotation",
+            "no": "Nicht enthalten",
+            "yes": "Enthalten"
+          },
+          "idno-display": {
+            "__field__": "Signatur"
+          },
+          "illuminated-display": {
+            "__field__": "Buchschmuck",
+            "no": "Nicht enthalten",
+            "yes": "Enthalten"
+          },
+          "kod-id": { "__field__": "HSP-ID" },
+          "language-display": {
+            "__field__": "Sprache",
+            "ar": "Arabisch",
+            "ara": "Arabisch",
+            "bg": "Bulgarisch",
+            "ca": "Katalanisch",
+            "chu": "Kirchenslawisch",
+            "cs": "Tschechisch",
+            "cu": "Kirchenslawisch",
+            "cz": "Tschechisch",
+            "da": "Dänisch",
+            "de": "Deutsch",
+            "de-at": "Deutsch (Österreich)",
+            "el": "Griechisch",
+            "en": "Englisch",
+            "es": "Spanisch",
+            "fa": "Persisch",
+            "fr": "Französisch",
+            "frm": "Mittelfranzösisch",
+            "gmh": "Mittelhochdeutsch",
+            "gml": "Mittelniederdeutsch",
+            "gr": "Griechisch",
+            "grc": "Altgriechisch",
+            "hbo": "Althebräisch",
+            "he": "Hebräisch",
+            "hu": "Ungarisch",
+            "is": "Isländisch",
+            "it": "Italienisch",
+            "ji": "Jiddisch",
+            "ka": "Georgisch",
+            "la": "Latein",
+            "nl": "Niederländisch",
+            "no": "Norwegisch",
+            "oc": "Okzitanisch",
+            "pl": "Polnisch",
+            "pt": "Portugiesisch",
+            "ro": "Rumänisch",
+            "ru": "Russisch",
+            "sa": "Sanskrit",
+            "si": "Singhalesisch",
+            "sk": "Slowakisch",
+            "sl": "Slowenisch",
+            "sv": "Schwedisch",
+            "syc": "Syrisch",
+            "ta": "Tamil",
+            "tr": "Türkisch",
+            "tü": "Türkisch",
+            "unk": "Unbekannt",
+            "wen": "Sorbisch",
+            "yi": "Jiddisch",
+            "zh": "Chinesisch"
+          },
+          "leaves-count-display": {
+            "__field__": "Umfang"
+          },
+          "material-display": {
+            "__field__": "Beschreibstoff",
+            "linen": "Leinen",
+            "other": "Sonstiges",
+            "palm": "Palmblätter",
+            "paper": "Papier",
+            "papyrus": "Papyrus",
+            "parchment": "Pergament"
+          },
+          "object-type-display": {
+            "__MISSING__": "Handschrift",
+            "__field__": "Form",
+            "codex": "Codex",
+            "collection": "Sammlung",
+            "composite": "Zusammengesetzte Handschrift",
+            "fragment": "Fragment",
+            "hostVolume": "Druck als Trägerband",
+            "leporello": "Leporello",
+            "miscellany": "Sammelband",
+            "other": "Sonstiges",
+            "postcard": "Postkarte",
+            "printWithManuscriptParts": "Druck mit handschriftlichen Anteilen",
+            "sammelband": "Sammelband",
+            "scroll": "Rotulus",
+            "singleSheet": "Einblatthandschrift",
+            "unknown": "Unbekannt"
+          },
+          "orig-date-lang-display": {
+            "__field__": "Entstehungszeit"
+          },
+          "orig-place-display": {
+            "__field__": "Entstehungsort/-raum"
+          },
+          "repository-display": { "__field__": "Einrichtung" },
+          "settlement-display": {
+            "__field__": "Ort"
+          },
+          "status-display": {
+            "__field__": "Status",
+            "destroyed": "Zerstört",
+            "dismembered": "Zerteilt",
+            "displaced": "Disloziert",
+            "existent": "Vorhanden",
+            "missing": "Verschollen",
+            "unknown": "Unbekannt"
+          },
+          "title-display": {
+            "__field__": "Titel"
+          }
+        },
+        "hspCompanionTitle": "Handschrift im Portal",
+        "notFound": "Zu diesem Digitalisat wurde keine Handschrift im Portal gefunden."
+      },
+      "window": {
+        "ariaLabel": "Handschriftenbeschreibung",
+        "error": "Fehler beim Laden der Beschreibung",
+        "loading": "Beschreibung wird geladen ..."
+      }
+    },
+    "openCompanionWindow": "Handschrift im Portal",
+    "permalinkPlugin": {
+      "closeButton": "Schließen",
+      "copyLink": "Der Link zu diesem Objekt wurde in die Zwischenablage kopiert.",
+      "tooltip": "Link zum Objekt",
+      "withTeiLink": {
+        "copyButton": "Permalink kopieren",
+        "description": "Stabiler Zitierlink zu diesem Objekt"
+      },
+      "withoutTeiLink": {
+        "copyButton": "Link kopieren",
+        "description": "Direktlink zu diesem Objekt"
+      }
+    },
+    "teiViewerPlugin": {
+      "externalReference": "Externe Referenz",
+      "registerData": "Registerdaten",
+      "window": {
+        "ariaLabel": "{{author}} ({{year}}) s- {{idno}}",
+        "close": "Schließen",
+        "maximize": "Maximieren",
+        "metadataContent": {
+          "about": "Über dieses Element",
+          "author": "Autor:innen",
+          "fileDesc": "Allgemeine Informationen",
+          "manuscript": "Handschrift",
+          "overview": "HSP-ID",
+          "publicationYear": "Publikationsjahr"
+        },
+        "minimize": "Minimieren",
+        "navigation": "Navigation",
+        "search": {
+          "nextResult": "Nächstes Ergebnis",
+          "phrase": "Phrasensuche",
+          "prevResult": "Vorheriges Ergebnis",
+          "removePhrase": "Suchphrase löschen",
+          "results": "Treffer",
+          "resultsOf": "von"
+        },
+        "sidebar": {
+          "ariaLabel": "Fenster-Seitenleiste",
+          "hsp": "Handschrift im Portal",
+          "metadata": "Metadaten",
+          "search": "Suche",
+          "toc": "Inhaltsverzeichnis"
+        },
+        "title": {
+          "default": "Beschreibung",
+          "description": "{{qualifiedIdno}}. Beschreibung",
+          "descriptionComplete": "{{qualifiedIdno}}. Beschreibung von {{authors}} ({{year}})",
+          "descriptionWithAuthor": "{{qualifiedIdno}}. Beschreibung von {{authors}}",
+          "descriptionWithYear": "{{qualifiedIdno}}. Beschreibung ({{year}})"
+        }
+      }
+    },
+    "toastTitle": "Arbeitsplatz",
+    "zoomFixPlugin": {
+      "active": "Fixiert",
+      "notActive": "Freigegeben",
+      "subHeader": "Zoomfaktor"
+    }
+  },
+  "windowTypeDialog": {
+    "elastic": "Elastisch",
+    "elasticDescription": "Fenster innerhalb eines unbegrenzten Arbeitsbereichs frei anordnen und skalieren. Fenster können überlappen.",
+    "mosaic": "Mosaik",
+    "mosaicDescription": "Fenster innerhalb des sichtbaren Arbeitsbereichs anordnen und flächenfüllend skalieren.",
+    "title": "Ansichtsmodus wählen"
+  }
+}

@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI version="5.0" xml:lang="de" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Beschreibung von Moskau, Rossijskij Gosudarstvennyj Archiv Literatury i Iskusstva (Moskau), Moskva, RGADA, Ф. 1604, Leipzig Cod. gr. 53 (868)</title>
+<respStmt>
+<resp>Beschrieben von</resp>
+<persName role="author">Friederike Berger</persName>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Elektronische Ausgabe nach TEI P5</edition>
+<respStmt>
+<resp>Diese Datei wurde unter Anwendung des MXML-to-TEI-P5-Stylesheets, welches an der Herzog August Bibliothek Wolfenbüttel im Rahmen des Projektes "Handschriftenportal" gepflegt wird aus einem am 27.10.2022 12:06:33:292 erstellten HIDA-DOC1-XML-Dokument erstellt.</resp>
+<name type="org">Handschriftenportal</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<name type="org">Handschriftenportal</name>
+</publisher>
+<date when="2022" type="primary">2022</date>
+<availability status="restricted">
+<licence target="http://rightsstatements.org/vocab/InC/1.0/">
+<p>http://rightsstatements.org/vocab/InC/1.0/</p>
+</licence>
+</availability>
+<idno type="hsk">868</idno>
+<date when="2024-08-15" type="secondary">2024-08-15 19:19:11</date>
+<pubPlace>
+<ptr xml:id="HSP-9e7aef00-87f1-3410-9f56-9b0fc908d859" subtype="hsp" type="purl" target="https://resolver.staatsbibliothek-berlin.de/HSP0006730E00000000"/>
+</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<bibl>868</bibl>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<creation>
+<date when="2016-07-13">13.07.2016</date>
+</creation>
+</profileDesc>
+<revisionDesc>
+<change>
+<date when="2022-10-27">2022-10-27 00:00:00</date>
+</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<msDesc status="extern" xml:id="HSP-18069ced-f1fa-3072-a57c-9eaf74b95fa4" xml:lang="de" subtype="medieval" type="hsp:description">
+<msIdentifier>
+<settlement ref="http://d-nb.info/gnd/4074987-3" key="NORM-6a04ba95-0c68-304c-b108-b9ddb2dc5727">Moskau</settlement>
+<repository ref="http://d-nb.info/gnd/5112167-0" key="NORM-d0c73b22-cf7f-3286-81b3-6089771c30ec">Rossijskij Gosudarstvennyj Archiv Literatury i Iskusstva (Moskau)</repository>
+<collection>Cod. gr. Φ</collection>
+<idno>Moskva, RGADA, Ф. 1604, Leipzig Cod. gr. 53</idno>
+<altIdentifier type="mxml-ID">
+<idno>MXML-31584265</idno>
+</altIdentifier>
+<altIdentifier type="hsp-ID">
+<collection>Handschriftenportal Kulturobjektdokument-ID</collection>
+<idno>HSP-0001f867-2a89-3c86-87e4-740a743ef922</idno>
+</altIdentifier>
+</msIdentifier>
+<head>
+<index indexName="norm_title">
+<term type="title">Galenus</term>
+</index>
+<title>GALENUS</title>
+<note type="headline">15. Jh. (2.–4. Viertel) Italien Papier ff. 40 (?) 230/235 x 165/170 mm</note>
+<index indexName="norm_material">
+<term type="material">Papier</term>
+<term type="material_type">paper</term>
+</index>
+<index indexName="norm_measure">
+<term type="measure">40 Bl. (?)</term>
+<term type="measure_noOfLeaves">40</term>
+</index>
+<index indexName="norm_dimensions">
+<term type="dimensions">23–23,5 × 16,5–17</term>
+<term type="height">23,5</term>
+<term type="width">17</term>
+<term type="depth"/>
+<term type="dimensions_typeOfInformation">factual</term>
+</index>
+<index indexName="norm_format">
+<term type="format">quarto</term>
+<term type="format_typeOfInformation">computed</term>
+</index>
+<index indexName="norm_origPlace">
+<term type="origPlace">Italien</term>
+<term type="origPlace_norm" ref="http://d-nb.info/gnd/4027833-5" key="NORM-389962c9-dec5-30ab-a8d0-4517e82c3996">Italien</term>
+</index>
+<index indexName="norm_origDate">
+<term type="origDate">15. Jh., 2.–4. Viertel</term>
+<term type="origDate_notBefore">1426</term>
+<term type="origDate_notAfter">1500</term>
+<term type="origDate_type">datable</term>
+</index>
+<index indexName="norm_textLang">
+<term type="textLang">griechisch</term>
+<term type="textLang-ID">el</term>
+</index>
+<index indexName="norm_form">
+<term type="form">codex</term>
+</index>
+<index indexName="norm_status">
+<term type="status"/>
+</index>
+<index indexName="norm_decoration">
+<term type="decoration"/>
+</index>
+<index indexName="norm_musicNotation">
+<term type="musicNotation"/>
+</index>
+</head>
+<physDesc>
+<p n="MXML-31584265-par04">
+<hi rend="italic">F </hi>
+Hs. offenbar paginiert: S.
+<hi rend="italic">1</hi>
+–71. Gardthausen erwähnt ein Vorsatzblatt und 4 Blätter nach S. 71.
+<lb/>
+<lb/>
+<hi rend="italic">B </hi>
+<ref target="#5260[0]">Papier</ref>
+.
+<lb/>
+<lb/>
+<hi rend="italic">S </hi>
+A. ‹Andronikos Kallistos› nach B. L. Fonkich, Греческие Писцы Эпои Возрожденя (Griechische Schreiber der Renaissance), in: VV 42 (1981), S. 124–128; vom Schreiber stammen die Nachträge auf dem äußeren Rand. Zu Andronikos Kallistos vgl. RGK I 18, II 25, III 31.
+<lb/>
+<lb/>
+Weitere Hände: Kollationsvermerke von ‹Christian Friedrich Matthaei› (s.
+<hi rend="italic">Pr</hi>
+), vgl. die Bemerkung auf dem Vorsatzblatt, die wohl vom Galen-Editor C. G. Kühn stammt:
+<hi rend="italic">Ad marginem positae variae codicum lectiones adscriptae sunt Matthaei, Imp. Ross. a cons. colleg. etc. haud dubie haustae e codd. Mosquensibus.</hi>
+.
+<lb/>
+<lb/>
+<hi rend="italic">Ill </hi>
+Nach
+<hi rend="small-caps">Gardthausen</hi>
+unter dem Titel auf f. 1 noch eine rote, stark verblasste Überschrift.
+</p>
+</physDesc>
+<msPart type="binding" xml:id="MXML-31584266">
+<msIdentifier>
+<idno>Einband</idno>
+</msIdentifier>
+<head>
+<index indexName="norm_title">
+<term type="title"/>
+</index>
+<title/>
+<note type="headline">Halblederband</note>
+<index indexName="norm_material">
+<term type="material"/>
+<term type="material_type"/>
+</index>
+<index indexName="norm_measure">
+<term type="measure"/>
+<term type="measure_noOfLeaves"/>
+</index>
+<index indexName="norm_dimensions">
+<term type="dimensions"/>
+<term type="height"/>
+<term type="width"/>
+<term type="depth"/>
+<term type="dimensions_typeOfInformation"/>
+</index>
+<index indexName="norm_format">
+<term type="format"/>
+<term type="format_typeOfInformation"/>
+</index>
+<index indexName="norm_origPlace">
+<term type="origPlace"/>
+<term type="origPlace_norm"/>
+</index>
+<index indexName="norm_origDate">
+<term type="origDate"/>
+<term type="origDate_notBefore"/>
+<term type="origDate_notAfter"/>
+<term type="origDate_type"/>
+</index>
+<index indexName="norm_textLang">
+<term type="textLang"/>
+<term type="textLang-ID"/>
+</index>
+<index indexName="norm_form">
+<term type="form">binding</term>
+</index>
+<index indexName="norm_status">
+<term type="status"/>
+</index>
+<index indexName="norm_decoration">
+<term type="decoration"/>
+</index>
+<index indexName="norm_musicNotation">
+<term type="musicNotation"/>
+</index>
+</head>
+<physDesc>
+<p n="MXML-31584266-par07">
+<hi rend="italic">E </hi>
+Nach
+<hi rend="small-caps">Gardthausen</hi>
+: „Moderner
+<ref target="#5260[0]">Halblederband</ref>
+mit rothem Rückenschild mit der Aufschrift
+<ref target="#bezper[0].4100">Galeni</ref>
+Therapeutica ad [Glauconem]” .
+<lb/>
+<lb/>
+<hi rend="italic">Ez </hi>
+Auf S. 1 und auf den nächsten 5 Blättern ist der Besitzeintrag der Synodalbibliothek durch Säure und Kritzeleien unlesbar geworden, da dieser aus dem Jahr 1775 stammende Besitzeintrag auf den letzten Seiten fehlt, handelt es sich vermutlich nur um den ersten Teil einer Hs. (vgl.
+<hi rend="small-caps">Gebhardt </hi>
+1898 [
+<hi rend="italic">Kat</hi>
+], S. 410, 465).
+</p>
+</physDesc>
+<msPart type="other">
+<msIdentifier>
+<idno>Sonstiges</idno>
+</msIdentifier>
+<p>
+<index indexName="Erwähnung" n="MXML-31584266_bezper[0]">
+<term type="4100">
+<persName key="z001_100972098">Galenus</persName>
+</term>
+</index>
+</p>
+</msPart>
+</msPart>
+<history>
+<p n="MXML-31584265-par05">
+<hi rend="italic">Pr </hi>
+Zur Geschichte der Hs. vgl. A.
+<hi rend="small-caps">Pietrobelli</hi>
+, L´ itinéraire de deux manuscrits de Galien à la Renaissance, in: Revue d’histoire des textes, n. s. 4, (2009), S. 79–114, bes. S. 112–114.
+<hi rend="small-caps">Pietrobelli</hi>
+(s. S) vermutet, dass Cod. gr. 53 von
+<ref target="#bezper[0].4100">Andronikos Kallistos</ref>
+in Venedig geschrieben wurde. Beim Verkauf von dessen Bibliothek sei das Ms. zunächst in den Besitz des Humanisten
+<ref target="#bezper[1].4100">Balthazar Meliavacca</ref>
+(gest. 1524) und später in die Hände von
+<ref target="#bezper[2].4100"> Giovanni Battista Rasario (1517–1578)</ref>
+(1517–1578) gelangt. Die Handschriften des Rasario, Editor der 1562–1563 erschienen lateinischen Galen-Ausgabe, kamen gemeinsam in die Bibliothek des
+<ref target="#bezper[3].4100">Manuel/Maximos Margunios</ref>
+(vgl.
+<hi rend="small-caps">Pietrobelli</hi>
+[
+<hi rend="italic">S</hi>
+]). Letzteres wird durch folgende Provenienz-Hinweise in der Hs. unterstützt: τῶν Ἰβήρων und Ἐκ τῶν Μαξίμου ἐπισκόπου Κυθήρων. Manuel/Maximos Margunios (1549–1602, vgl. RGK I 259, II 356, III 427) hinterließ seine Handschriften dem
+<ref target="#bezsoz[4].4600">Kloster Iviron</ref>
+auf dem Athos (vgl.
+<hi rend="small-caps">Legrand, </hi>
+Bibliographie II,
+<hi rend="small-caps">S. 391</hi>
+–
+<hi rend="small-caps">393)</hi>
+, wo sie schon vor Margunios Tod im Jahr 1600 ankamen.
+<lb/>
+<lb/>
+Vermutlich im Jahr 1653 wurde Cod. gr. 53 mit anderen Hss. von
+<ref target="#bezper[4].4100">Arsenij Suchanov</ref>
+im Auftrag des russischen Patriarchen
+<ref target="#bezper[5].4100">Nikon</ref>
+(1605–1681) für die
+<ref target="#bezsoz[2].4600">Synodalbibliothek</ref>
+gekauft. Suchanov hat die von ihm gekauften Hss. noch auf dem Athos durchnummeriert. Die entsprechende Zahl befand sich wohl auf S. 1, wo sie schon zu Gardthausens Zeiten durch die Anwendung von Säure unlesbar war, das gleich gilt für die Besitzvermerke der Synodalbibliothek (s.
+<hi rend="italic">Ez</hi>
+).
+<lb/>
+<lb/>
+Weitere Galen-Handschriften aus Margunios' Besitz sind der ebenfalls von Andronikos Kallistos geschriebene Sinod. gr. 282 (Vlad. 465/
+<hi rend="small-caps">Matthaei</hi>
+CCXIX) sowie Sinod. gr. 507 (Vlad. 467/
+<hi rend="small-caps">Matthaei</hi>
+II, VII, fol.), der im Jahr 1518 von Ambrosios Leon geschrieben wurde (zum Schreiber vgl. RGK I, 9bis; II 17;
+<hi rend="small-caps">Bernar</hi>
+–
+<hi rend="small-caps">dinello</hi>
+, Autografi 74). Beide Handschriften kamen ebenfalls aus dem Kloster Iviron, jedoch stimmt nur Sinod. gr. 282 auch in den Maßen mit Cod. gr. 53 überein. Nach
+<hi rend="small-caps">Gebhardt</hi>
+sind im ungedruckten Katalog der Moskauer Bibliothek aus dem Jahr 1773 unter der Nummer 270 zwei Galen-Hs. verzeichnet, im Katalog von 1805 jedoch nur die etwas jüngere, die aus dem Athos-Kloster Dionysiu stammt (
+<hi rend="small-caps">Matthae</hi>
+<hi rend="small-caps">i</hi>
+1805 [
+<hi rend="italic">Lit</hi>
+], S. 167–168; eine genauere Beschreibung des heutigen Cod. 466 [283/
+<hi rend="small-caps">Matthae</hi>
+<hi rend="small-caps">i</hi>
+<hi rend="small-caps">CCLXX]</hi>
+bei
+<hi rend="small-caps">Vladimir</hi>
+1894 [
+<hi rend="italic">Lit</hi>
+], S. 703–705; vgl. auch S. 867). Mit welcher der angegebenen Hss. Cod. gr. 53 zusammengehört, müsste in situ geprüft werden. Sicher ist, dass es
+<ref target="#bezper[6].4100">Matthaei</ref>
+gelang, die Blätter zu stehlen. Er tat das sicher auch, weil die Hs. seine Kollationen aus anderen Moskauer Hss. enthielt (siehe oben f. I
+<hi rend="sup">r</hi>
+).
+<lb/>
+<lb/>
+Wie Cod. gr. 53 in die
+<ref target="#bezsoz[3].4600">Leipziger UB</ref>
+kam, ist unbekannt. Im Jahr 1947 wurde er vermutlich mit den Dresdner Hss. aus Matthaeis Besitz nach Moskau zurückgegeben (vgl. Vorwort zum Reprint des Dresdner Katalogs (
+<hi rend="italic">Kat</hi>
+), S. IV) und ist in Moskau im RGDA (Russian State Archive of Early Acts) gemeinsam mit den Dresdner Hss. im Bestand Ф. 1604 als Leipzig Cod. gr. 53 aufgestellt (vgl. Fonkich [
+<hi rend="italic">S</hi>
+]).
+<lb/>
+<lb/>
+<hi rend="italic">Ü </hi>
+Weitere Hss. bei
+<hi rend="small-caps">Diels</hi>
+, Handschriften I, S. 93,
+<hi rend="small-caps">Diels</hi>
+Nachtrag, S. 34. Vgl. auch
+<hi rend="small-caps">V. Lorusso, </hi>
+Trace di esegesi alessandrina al
+<hi rend="italic">De methodo medendi </hi>
+di Galeno in codici medievali, in:
+<hi rend="small-caps">V. Boudon-Millot, A. Garzya</hi>
+u. a. (Hrsg.), Storia della Tradizione e edizione die medici greci, Atti del VI Colloquio internazionale (Paris - Sorbonne, 12-13 aprile 2008 = Collectanea 27) Neapel 2010, S. 101–127.
+</p>
+</history>
+<additional>
+<listBibl>
+<bibl>
+<hi rend="italic">Kat </hi>
+<hi rend="small-caps">A. Schiada, </hi>
+Arcana Bibliothecae Synodalis et Typographicae Mosquensis sacra, Leipzig 1724, S. 37: Galeni Opera. — Ungedrucktes Verzeichnis der Synodalbibliothek aus dem Jahr 1773 (Nr. 270). —
+<hi rend="small-caps">Gardthausen</hi>
+, S. 73–74. —
+<hi rend="small-caps">O. v. Gebhardt</hi>
+, Ch. Fr. Matthaei und seine Sammlung griechischer Handschriften, in: Zentralblatt für Bibliothekswesen 15 (1898), S. 345–357; 393–420, 441–482, 537–566, bes. S. 464–465.
+<lb/>
+<lb/>
+<hi rend="italic">Lit </hi>
+Zitierte Kataloge anderer Bibliotheken:
+<hi rend="small-caps">Ch. F. Matthae</hi>
+<hi rend="small-caps">i</hi>
+, Accurata Codicum Graecorum Mss. Bibliothecarum Mosquensium Sanctissimae Synodi Notitia et Recensio, I–II, Leipzig 1805. —
+<hi rend="small-caps">F. Schnorr v. Carolsfeld</hi>
+, Katalog der Königlichen Öffentlichen Bibliothek zu Dresden, Band 1, Leipzig 1882 (= Katalog der Handschriften der Sächsischen Landesbibliothek zu Dresden, Band 1, korrigierte und verbesserte, nach dem Exemplar der Landesbibliothek photomechanisch hergestellte Ausgabe, Dresden 1979). — Archimandrit
+<hi rend="small-caps">Vladimir</hi>
+, Систематическое описание рукописей Московской Синодальной (Патриаршей) библиотеки. I: Рукописи греческие. (Sistematičeskoe opisanie rukopisej Moskovskoj sinodal'noj (patriaršej) biblioteki, 1, Rukopisi grečeskije), Moskau 1894.
+<lb/>
+<lb/>
+Zur Bibliothek des Maximus Margunius vgl.
+<hi rend="small-caps">B. L. Fonkich</hi>
+, Материалы для изучения ъиълотеки максима маргуня, in: VV 38 (1977), S. 141–153.
+<lb/>
+<lb/>
+Zu Matthaei vgl. bes.
+<hi rend="small-caps">Gebhardt</hi>
+1898 (
+<hi rend="italic">Kat</hi>
+);
+<hi rend="small-caps">O. v. Gebhardt, </hi>
+Rezension zum Katalog von Vladimir (s.
+<hi rend="italic">Lit</hi>
+), in: Zentralblatt für Bibliothekswesen 14 (1897), S. 298–301;
+<hi rend="small-caps">A. Cohen-Mushlin</hi>
+, Scriptoria in Medieval Saxony: St. Pancras in Hamersleben, Wiesbaden 2004.
+</bibl>
+</listBibl>
+</additional>
+<msContents>
+<msItem n="MXML-31584267">
+<note type="text">
+Die folgende Beschreibung stützt sich inhaltlich und kodikologisch auf die Beschreibung von
+<hi rend="small-caps">Gardthausen</hi>
+und
+<hi rend="small-caps">v. Gebhardt</hi>
+(siehe
+<hi rend="italic">Kat</hi>
+), die in den Maßen der Hs. leicht divergieren; über Kustoden, Lagen und Schrifttbild können keine Aussagen gemacht werden.
+<lb/>
+<lb/>
+(f. I) Von der Hand
+<ref target="#bezper[1].4100">Kühns</ref>
+(?):
+<hi rend="italic">Ad marginem positae variae codicum lectiones adscriptae sunt Matthaei, Imp. Ross. a cons. colleg. etc. haud dubie haustae e codd. Mosquensibus.</hi>
+(= Moskau, Synodalbibliothek,
+<ref target="#5007[0].501m">Cod. 464</ref>
+[31/
+<hi rend="small-caps">Matthae</hi>
+<hi rend="small-caps">i</hi>
+LII],
+<ref target="#5007[1].501m">466</ref>
+[283/
+<hi rend="small-caps">Matthae</hi>
+<hi rend="small-caps">i</hi>
+CCLXX] nach
+<hi rend="small-caps">Diels</hi>
+, Handschriften I, S. 93; zu den Katalogen der <settlement key="NORM-6a04ba95-0c68-304c-b108-b9ddb2dc5727">Moskauer Synodalbibliothek </settlement> s.
+<hi rend="italic">Lit</hi>
+).
+<lb/>
+<lb/>
+(pp. 1–71)
+<ref target="#bezper[0].4100">Galenus</ref>
+,
+<ref target="#bezwrk[0].6930">Αd Glauconem de medendi methodo</ref>
+, ed.
+<hi rend="small-caps">C. G. K</hi>
+<hi rend="small-caps">ü</hi>
+<hi rend="small-caps">hn</hi>
+, Claudii Galeni opera omnia, XI, Leipzig 1826, S. 1–146. (S. 1) Titel: Γαληνοῦ πρὸς Γλαύκωνα θεραπευτικῶν. — (pp. 1–[33]) Buch 1, ed.
+<hi rend="small-caps">K</hi>
+<hi rend="small-caps">ü</hi>
+<hi rend="small-caps">hn, </hi>
+S. 11–70,
+<hi rend="italic">inc.</hi>
+<ref target="#5650[0].5666g"> </ref>
+Ὅτι μὲν οὐ τὴν κοινὴν μόνον ἁπάντων ἀνθρώπων φύσιν, ὦ Γλαύκων … . — (pp. 34–71) Buch 2, ed. Kühn, S. 71–146: …
+<hi rend="italic">des.</hi>
+γραφομένων ἡμῖν ὑπομνημάτων ἕκαστον. Darunter: Τέλος σὺν θεῷ πρὸς Γλαύκωνα. — (S. 72–80 ?) Leer.
+</note>
+<note type="register">
+<p>
+<index indexName="Autorschaft" n="MXML-31584267_bezper[0]">
+<term type="4100">
+<persName role="Arzt" key="GND_118537202">Galenus</persName>
+</term>
+<term type="4475">Arzt</term>
+</index>
+<index indexName="Bearbeitung" n="MXML-31584267_bezper[1]">
+<term type="4100">
+<persName role="Arzt" key="NORM-51150b7b-6309-323b-bd29-2c0be9fd3f21">Kühn, Carl Gottlob</persName>
+</term>
+<term type="4475">Arzt</term>
+</index>
+<index indexName="Abschrift" n="MXML-31584267_bezwrk[0]">
+<term type="6930gi">Αd Glauconem de medendi methodo</term>
+</index>
+<index indexName="Initium" n="MXML-31584267_5650[0]">
+<term type="5666v" xml:lang="unk">Ὅτι μὲν οὐ τὴν κοινὴν μόνον ἁπάντων ἀνθρώπων φύσιν, ὦ Γλαύκων</term>
+<term type="5694">S. 1</term>
+</index>
+<index indexName="Handschrift-im-Katalog-zitiertErwähnung" n="MXML-31584267_5007[0]">
+<term type="501k">
+<settlement key="NORM-6a04ba95-0c68-304c-b108-b9ddb2dc5727">Moskau</settlement> BSynod
+</term>
+<term type="501m">Cod. 464</term>
+</index>
+<index indexName="Handschrift-im-Katalog-zitiertErwähnung" n="MXML-31584267_5007[1]">
+<term type="501k">Moskau, BSynod</term>
+<term type="501m">Cod. 466</term>
+</index>
+</p>
+</note>
+</msItem>
+</msContents>
+<msPart type="other">
+<msIdentifier>
+<idno>Sonstiges</idno>
+</msIdentifier>
+<p>
+<index indexName="Vorbesitz" n="MXML-31584265_bezsoz[1]">
+<term type="4564">
+<settlement>Moskau</settlement>
+</term>
+<term type="4600">
+<orgName key="y001_5187351-5">Sinodalʹnaja Biblioteka</orgName>
+</term>
+</index>
+<index indexName="Vorbesitz" n="MXML-31584265_bezsoz[2]">
+<term type="4564">
+<settlement>Athos</settlement>
+</term>
+<term type="4600">
+<orgName key="y001_1086483855">Iviron (Kloster)</orgName>
+</term>
+</index>
+<index indexName="Vorbesitz" n="MXML-31584265_bezsoz[3]">
+<term type="4564">
+<settlement>Leipzig</settlement>
+</term>
+<term type="4600">
+<orgName key="NORM-444a6f1b-4bcb-3fa7-a96d-b6cafe49f0d0">Universitätsbibliothek Leipzig</orgName>
+</term>
+<term type="4650">
+<idno>Cod. gr. 53</idno>
+</term>
+</index>
+<index indexName="Herstellung" n="MXML-31584265_bezper[0]">
+<term type="4100gi">
+<persName role="scribe">Kallistos, Andronikos</persName>
+</term>
+<term type="4475">Schreiber</term>
+</index>
+<index indexName="Vorbesitz" n="MXML-31584265_bezper[1]">
+<term type="4100gi">
+<persName role="Humanist">Meliavacca, Balthazar</persName>
+</term>
+<term type="4475">Humanist</term>
+</index>
+<index indexName="Vorbesitz" n="MXML-31584265_bezper[2]">
+<term type="4100">
+<persName role="Humanist" key="z001_100243789">Giovanni Battista Rasario (1517–1578)</persName>
+</term>
+<term type="4475">Humanist</term>
+</index>
+<index indexName="Vorbesitz" n="MXML-31584265_bezper[3]">
+<term type="4100">
+<persName role="Theologe" key="z001_100376576">Margunios, Maximos</persName>
+</term>
+<term type="4475">Theologe</term>
+</index>
+<index indexName="Vorbesitz" n="MXML-31584265_bezper[4]">
+<term type="4100">
+<persName role="Mönch" key="z001_143810782">Suchanov, Arsenij</persName>
+</term>
+<term type="4475">Mönch</term>
+</index>
+<index indexName="AuftragErwähnung" n="MXML-31584265_bezper[5]">
+<term type="4100">
+<persName role="Patriarch" key="GND_118588133">Moskau, Nikon; Patriarch</persName>
+</term>
+<term type="4475">Patriarch</term>
+</index>
+<index indexName="VorbesitzBearbeitung" n="MXML-31584265_bezper[6]">
+<term type="4100">
+<persName role="Philologe" key="z001_116840854">Matthäi, Christian Friedrich von</persName>
+</term>
+<term type="4475">Philologe</term>
+</index>
+<index indexName="Datierung" n="MXML-31584265_5060[0]">
+<term type="5064">1426/1500</term>
+</index>
+<index indexName="gemeinsamer-SchreiberHandschrift-im-Katalog-zitiert" n="MXML-31584265_5007[0]">
+<term type="501k">Moskau, BSynod</term>
+<term type="501m">Cod. 465</term>
+</index>
+<index indexName="gemeinsamer-SchreiberHandschrift-im-Katalog-zitiert" n="MXML-31584265_5007[1]">
+<term type="501k">Moskau, BSynod</term>
+<term type="501m">Cod. 467</term>
+</index>
+</p>
+</msPart>
+</msDesc>
+</body>
+</text>
+</TEI>

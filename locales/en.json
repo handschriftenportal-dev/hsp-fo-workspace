@@ -1,0 +1,299 @@
+{
+  "jumpToWindowDialog": {
+    "title": "Open windows"
+  },
+  "m3": {
+    "addManifestUrl": "External content location",
+    "addManifestUrlHelp": "IIIF manifest URL",
+    "addResource": "Add content",
+    "downloadPlugin": {
+      "back": "Back",
+      "close": "Close",
+      "color": "Color",
+      "dlCreate": "Zip is created",
+      "dlFinish": "Zip is finished",
+      "download": "Download",
+      "grey": "Grey",
+      "image": "Image",
+      "images": "Images",
+      "menu": "Download menu",
+      "multipleImages": "Multiple images",
+      "otherOptions": "Other download options",
+      "pages": "Page numbers",
+      "pdf": "PDF download",
+      "pdfPlugin": {
+        "abort": "Abort",
+        "createPdf": "Create PDF",
+        "downloadPdf": "Download PDF",
+        "fileSize": "Filesize: ",
+        "finishedPdf": "PDF is finished",
+        "license": "Lizenz: ",
+        "manifestUrl": "Manifest-Url: ",
+        "pdfBtn": "PDF",
+        "pdfInSystemHeadline": "Zugehörige Handschrift im HSP öffnen: ",
+        "pdfNotSystemHeadline": "Zugehöriges Digitalisat im HSP öffnen: ",
+        "pdfText": "Choose the quality and the wanted pages.",
+        "quality": "Quality in PPI",
+        "requiredStatement": "Zuschreibung: ",
+        "subtitleMetaPage": "Fortsetzung zu ",
+        "toc": "Strukturdaten",
+        "workingPdf": "PDF is created"
+      },
+      "toastMsg": "Download started. Depending on file size, the download may take up to several minutes.",
+      "zip": "Zip download in JPG format",
+      "zipText": "Download multiple images as a zip.\nThe download will start automatically in the background."
+    },
+    "duplicatePlugin": {
+      "tooltip": {
+        "iiif": "Duplicate",
+        "tei": "Duplicate"
+      }
+    },
+    "emptyResourceList": "No external content added",
+    "errorPlugin": {
+      "failedMsg": "An error occurred while loading and processing the image data provided by the holding institution. <br> If the problem persists after another attempt, please report the affected digital image to the <Link>Handschriftenportal team</Link> or directly to the respective institution.",
+      "mailBody": "Dear Handschriftenportal team, \n\n Unfortunately, when opening a digital copy, there were problems loading and processing the IIIF data from the holding institution. \n Please check with the relevant institution how the error can be rectified. \n\n URL of affected manifest: {{manifestUrl}} \n\n Please add the following information if possible \n Signature of the manuscript: \n Institution: \n Further description (waiting time, specifics):",
+      "mailSubject": "[Error message] Loading problems with IIIF manifest",
+      "snackbarMsg": "Loading the manifest is taking longer than expected. Please be patient."
+    },
+    "hspAnnotation": {
+      "additionalAnnotations": "<Typography>Additional annotations</Typography> for this digital object:",
+      "content": "Content",
+      "control": "Control",
+      "create": "Create annotation",
+      "itemTooltip": "Visible for your account",
+      "navigation": {
+        "firstAnnotation": "First annotation",
+        "lastAnnotation": "Last annotation",
+        "navigation": "Navigation",
+        "nextAnnotation": "Next",
+        "previousAnnotation": "Previous"
+      },
+      "overview": "Overview",
+      "pages": "Annotated pages",
+      "publishedAnnotations": "<Typography>Published annotations</Typography> for this digital object:",
+      "showAllAnnos": "Show all",
+      "visibility": "Toggle visibility"
+    },
+    "hspPlugins": {
+      "sidebar": {
+        "backToSearch": "Show Manuscript",
+        "data": {
+          "dimensions-display": {
+            "__field__": "Dimensions"
+          },
+          "format-display": {
+            "__field__": "Format",
+            "folio": "Folio",
+            "larger than folio": "Larger than folio",
+            "long and narrow": "Narrow format",
+            "oblong": "Oblong format",
+            "octavo": "Octavo",
+            "other": "Other",
+            "quarto": "Quarto",
+            "smaller than octavo": "Smaller than octavo",
+            "square": "Square format"
+          },
+          "former-ms-identifier-display": { "__field__": "Previous owner" },
+          "group-id": { "__field__": "HSP-ID" },
+
+          "has-notation-display": {
+            "__field__": "Musical notation",
+            "no": "Not included",
+            "yes": "Included"
+          },
+          "idno-display": {
+            "__field__": "Shelfmark"
+          },
+          "illuminated-display": {
+            "__field__": "Decoration",
+            "no": "Not included",
+            "yes": "Included"
+          },
+          "kod-id": { "__field__": "HSP-ID" },
+          "language-display": {
+            "__field__": "Language",
+            "ar": "Arabic",
+            "ara": "Arabic",
+            "bg": "Bulgarian",
+            "ca": "Catalan",
+            "chu": "Church slavic",
+            "cs": "Czech",
+            "cu": "Church slavic",
+            "cz": "Czech",
+            "da": "Danish",
+            "de": "Deutsch",
+            "de-at": "German (Austria)",
+            "el": "Greek",
+            "en": "English",
+            "es": "Spanish",
+            "fa": "Persian",
+            "fr": "French",
+            "frm": "Middle french",
+            "gmh": "Middle high german",
+            "gml": "Middle low german",
+            "gr": "Greek",
+            "grc": "Ancient greek",
+            "hbo": "Ancient hebrew",
+            "he": "Hebrew",
+            "hu": "Hungarian",
+            "is": "Icelandic",
+            "it": "Italian",
+            "ji": "Yiddish",
+            "ka": "Georgian",
+            "la": "Latin",
+            "nl": "Dutch",
+            "no": "Norwegian",
+            "oc": "Occitan",
+            "pl": "Polish",
+            "pt": "Portugese",
+            "ro": "Romanian",
+            "ru": "Russian",
+            "sa": "Sanskrit",
+            "si": "Sinhala",
+            "sk": "Slovak",
+            "sl": "Slovenian",
+            "sv": "Swedish",
+            "syc": "Syriac",
+            "ta": "Tamil",
+            "tr": "Turkish",
+            "tü": "Turkish",
+            "unk": "Unknown",
+            "wen": "Sorbian",
+            "yi": "Yiddish",
+            "zh": "Chinese"
+          },
+          "leaves-count-display": {
+            "__field__": "Extent"
+          },
+          "material-display": {
+            "__field__": "Support",
+            "linen": "Linen",
+            "other": "Misc.",
+            "palm": "Palm",
+            "paper": "Paper",
+            "papyrus": "Papyrus",
+            "parchment": "Parchment"
+          },
+          "object-type-display": {
+            "__MISSING__": "Manuscript",
+            "__field__": "Form",
+            "codex": "Codex",
+            "collection": "Collection",
+            "composite": "Composite",
+            "fragment": "Fragment",
+            "hostVolume": "Host volume",
+            "leporello": "Leporello",
+            "miscellany": "Sammelband",
+            "other": "Other",
+            "postcard": "Postcard",
+            "printWithManuscriptParts": "Print with manuscript parts",
+            "sammelband": "Sammelband",
+            "scroll": "Scroll",
+            "singleSheet": "Single sheet",
+            "unknown": "Unknown"
+          },
+          "orig-date-lang-display": {
+            "__field__": "Date of origin"
+          },
+          "orig-place-display": {
+            "__field__": "Place of origin"
+          },
+          "repository-display": {
+            "__field__": "Holding institution"
+          },
+          "settlement-display": {
+            "__field__": "Settlement"
+          },
+          "status-display": {
+            "__field__": "Status",
+            "destroyed": "Destroyed",
+            "dismembered": "Dismembered",
+            "displaced": "Displaced",
+            "existent": "Existent",
+            "missing": "Missing",
+            "unknown": "Unknown"
+          },
+          "title-display": {
+            "__field__": "Title"
+          }
+        },
+        "hspCompanionTitle": "Manuscript in portal",
+        "notFound": "For this digital image no manuscript has been found in the portal."
+      },
+      "window": {
+        "ariaLabel": "Manuscript description",
+        "error": "Error while loading description",
+        "loading": "Loading description ..."
+      }
+    },
+    "openCompanionWindow": "Manuscript in portal",
+    "permalinkPlugin": {
+      "closeButton": "Close",
+      "copyLink": "The link to this object has been copied to the clipboard.",
+      "tooltip": "Link to object",
+      "withTeiLink": {
+        "copyButton": "Copy permalink",
+        "description": "Stable citation link to this object"
+      },
+      "withoutTeiLink": {
+        "copyButton": "Copy link",
+        "description": "Direct link to this object"
+      }
+    },
+    "teiViewerPlugin": {
+      "externalReference": "External reference",
+      "registerData": "Index data",
+      "window": {
+        "ariaLabel": "{{author}} ({{year}}) - {{idno}}",
+        "close": "Close",
+        "maximize": "Maximize",
+        "metadataContent": {
+          "about": "About this item",
+          "author": "Authors",
+          "fileDesc": "General information",
+          "manuscript": "Manuscript",
+          "overview": "HSP-ID",
+          "publicationYear": "Year of publication"
+        },
+        "minimize": "Minimize",
+        "navigation": "Navigation",
+        "search": {
+          "nextResult": "Next result",
+          "phrase": "Phrase search",
+          "prevResult": "Previous result",
+          "removePhrase": "Remove search phrase",
+          "results": "Results",
+          "resultsOf": "of"
+        },
+        "sidebar": {
+          "ariaLabel": "Window sidebar",
+          "hsp": "Manuscript in portal",
+          "metadata": "Metadata",
+          "search": "Search",
+          "toc": "Table of content"
+        },
+        "title": {
+          "default": "Description",
+          "description": "{{qualifiedIdno}}. Description",
+          "descriptionComplete": "{{qualifiedIdno}}. Description by {{authors}} ({{year}})",
+          "descriptionWithAuthor": "{{qualifiedIdno}}. Description by {{authors}}",
+          "descriptionWithYear": "{{qualifiedIdno}}. Description ({{year}})"
+        }
+      }
+    },
+    "toastTitle": "Workspace",
+    "zoomFixPlugin": {
+      "fixed": "Fixed",
+      "notFixed": "Free",
+      "subHeader": "Zoom factor"
+    }
+  },
+  "windowTypeDialog": {
+    "elastic": "Elastic",
+    "elasticDescription": "Move and size windows freely in an unlimited workspace. Windows can overlap.",
+    "mosaic": "Mosaic",
+    "mosaicDescription": "Move and size windows in relation to each other, within the visible frame.",
+    "title": "Select view mode"
+  }
+}

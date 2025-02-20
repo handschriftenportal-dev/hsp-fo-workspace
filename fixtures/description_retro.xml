@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TEI xml:lang="de" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:egXML="http://www.tei-c.org/ns/Examples" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Beschreibung von Aurich, Niedersächsisches Staatsarchiv, Dep. IV Msc. IX, 1 (STAHL, Irene: Handschriften in Nordwestdeutschland: Aurich - Emden - Oldenburg. - Wiesbaden: Harrassowitz, 1993. - (Mittelalterliche Handschriften in Niedersachsen: Kurzkatalog; H. 3))</title>
+                <respStmt>
+                    <resp>Beschrieben von</resp>
+                    <persName role="author">Irene Stahl</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Elektronische Ausgabe nach TEI P5</edition>
+                <respStmt>
+                    <resp>Diese Datei wurde unter Anwendung des MXML-to-TEI-P5-Stylesheets, welches an der Herzog August Bibliothek Wolfenbüttel im Rahmen des Projektes "Handschriftenportal" gepflegt wird aus einem am 13.10.2021 15:35:25:214 erstellten HIDA-DOC1-XML-Dokument erstellt. Grundlage ist ein Retrokonversionsdokument.</resp>
+                    <name type="org">Handschriftenportal</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Handschriftenportal</name>
+               </publisher>
+                <date when="1993" type="published">1993</date>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+                        <p>http://creativecommons.org/licenses/by-sa/3.0/de/</p>
+                  </licence>
+                </availability>
+                <idno type="hsk">440</idno>
+                <pubPlace>
+                    <ptr target="HSP-a8abb4bb-284b-3b27-aa7c-b790dc20f80b" type="hsp"/>
+                </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl n="AUR_NLA">STAHL, Irene: Handschriften in Nordwestdeutschland: Aurich - Emden - Oldenburg. - Wiesbaden: Harrassowitz, 1993. - (Mittelalterliche Handschriften in Niedersachsen: Kurzkatalog; H. 3) 
+                    <biblScope from="Page32_Block1" to="Page33_Block2" facs="https://iiif.ub.uni-leipzig.de/0000034537/range/LOG_0014">32–33</biblScope>
+                    <ptr type="hsp" target="https://iiif.ub.uni-leipzig.de/0000034537/manifest.json" />
+               </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic xml:id="HSK0440_a032_90411537-T" url="http://bilder.manuscripta-mediaevalia.de/hs/katalogseiten/HSK0440_a032_jpg.htm"/>
+    </facsimile>
+    <text>
+        <body>
+            <msDesc status="extern" xml:id="HSP-a266470f-b10c-3a61-97cd-62c3e59bfc12" xml:lang="de" subtype="medieval" type="hsp:description_retro">
+                <msIdentifier>
+                    <settlement key="5b2f6128-0219-3b03-b98e-2f69ce30fe5d">Aurich</settlement>
+                    <repository key="318df10d-7abc-365d-b6e8-c39c8bafc6eb" ref="http://d-nb.info/gnd/1147794049 https://sigel.staatsbibliothek-berlin.de/suche/?isil=DE-1811-AU" rend="SA">Niedersächsisches Staatsarchiv</repository>
+                    <collection>Dep. IV</collection>
+                    <collection type="baseShelfmarkGroup">Dep. IV Msc. IX, 1-74</collection>
+                    <idno>Dep. IV Msc. IX, 1</idno>
+                    <altIdentifier type="catalog">
+                        <idno>MXML-90411537-T</idno>
+                    </altIdentifier>
+                    <altIdentifier type="hsp-ID">
+                        <collection>Handschriftenportal Kulturobjektdokument-ID</collection>
+                        <idno>HSP-81c08edc-03a8-389c-a6db-ebdb8b7e00a1</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head>
+                    <index indexName="norm_title">
+                        <term type="title">Seifried · Buch von Troja · Ps.-Aristoteles, dt.</term>
+                    </index>
+                    <note type="headline">Papier · 265 (Blatt) · 29 x 21 (cm) · Oberpfalz · 1455</note>
+                    <title>Seifried. Buch von Troja. Ps.-Aristoteles (dt.)</title>
+                    <index indexName="norm_material">
+                        <term type="material">Papier</term>
+                        <term type="material_type">paper</term>
+                    </index>
+                    <index indexName="norm_measure">
+                        <term type="measure">265 Bl.</term>
+                        <term type="measure_noOfLeaves">265</term>
+                    </index>
+                    <index indexName="norm_dimensions">
+                        <term type="dimensions">29 × 21</term>
+                        <term type="height">29</term>
+                        <term type="width">21</term>
+                        <term type="depth"/>
+                        <term type="dimensions_typeOfInformation">factual</term>
+                    </index>
+                    <index indexName="norm_format">
+                        <term type="format">folio</term>
+                        <term type="format_typeOfInformation">computed</term>
+                    </index>
+                    <index indexName="norm_format">
+                        <term type="format">quarto</term>
+                        <term type="format_typeOfInformation">computed</term>
+                    </index>
+                    <index indexName="norm_origPlace">
+                        <term type="origPlace">Oberpfalz</term>
+                        <term type="origPlace_gnd-ID">4042961-1</term>
+                    </index>
+                    <index indexName="norm_origDate">
+                        <term type="origDate">1455</term>
+                        <term type="origDate_notBefore">1455</term>
+                        <term type="origDate_notAfter">1455</term>
+                        <term type="origDate_type">dated</term>
+                    </index>
+                    <index indexName="norm_textLang">
+                        <term type="textLang">deutsch</term>
+                        <term type="textLang-ID">de</term>
+                    </index>
+                    <index indexName="norm_form">
+                        <term type="form">codex</term>
+                    </index>
+                    <index indexName="norm_status">
+                        <term type="status"/>
+                    </index>
+                    <index indexName="norm_decoration">
+                        <term type="decoration">yes</term>
+                    </index>
+                    <index indexName="norm_musicNotation">
+                        <term type="musicNotation"/>
+                    </index>
+               </head>
+            </msDesc>
+            <!-- remove fulltext msPart for copyright reasons -->
+        </body>
+    </text>
+</TEI>

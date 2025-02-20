@@ -1,0 +1,31 @@
+{
+  "kod-id": "HSP_123456-a7891234-a56789",
+  "id": "HSP_123456-a7891234-a56789",
+  "type": "hsp:object",
+  "dimensions-display": [
+    "30,5 × 23,5"
+  ],
+  "format-display": [
+    "folio",
+    "quarto"
+  ],
+  "idno-display": "Clm 4454",
+  "illuminated-display": "yes",
+  "language-display": [
+    "la"
+  ],
+  "last-modified": "2021-12-28",
+  "leaves-count-display": "III + 258 Bl.",
+  "material-display": "Pergament",
+  "object-type-display": "codex",
+  "orig-date-lang-display": [
+    "11. Jh., Anfang"
+  ],
+  "orig-place-display": "Reichenau",
+  "persistent-url-display": "https://resolver.staatsbibliothek-berlin.de/HSP0004A44F00000000",
+  "repository-display": "Bayerische Staatsbibliothek",
+  "settlement-display": "München",
+  "status-display": "existent",
+  "title-display": "Evangeliar",
+  "former-ms-identifier-display": ["1"]
+}

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HSP Workspace Demo</title>
+  <style>
+    body {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+    #menu {
+      display: flex;
+    }
+    #menu > div {
+      padding: 16px;
+    }
+    button {
+      background: none;
+      border: 1px solid #aaa;
+    }
+    button:focus {
+      outline: none;
+    }
+    .area-btn {
+      margin-right: 16px;
+      cursor: pointer;
+    }
+    .area-btn-selected {
+      color: crimson;
+      font-weight: 600;
+    }
+    #workspace-container {
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  
+  <div id="menu" aria-hidden="true">
+    <div id="areaList"></div>
+    <div id="tools">
+      <button onclick="setFullscreen()">Fullscreen</button><br>
+      <button onclick="toggleAlbum()">Toggle Album</button><br>
+      <button onclick="setMosaic()">Mosaic</button><br>
+      <button onclick="setElastic()">Elastic</button><br>
+      <button onclick="openJumpToWindow()">JumpToWindow</button>
+    </div>
+    <div id="resourceList">
+      <input
+        type="button"
+        data-value="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1003/manifest/"
+        data-type="iiif:manifest"
+        data-id="hsp-window-"
+        value="IIIF Manifest: Aristoteleskommentare"
+        data-kodid="kod-123"
+      />
+      <br/>
+      <input
+        type="button"
+        data-value="https://iiif.ub.uni-leipzig.de/0000033840/manifest.json"
+        data-type="iiif:manifest"
+        data-id="hsp-window-"
+        value="IIIF Manifest: Die Handschriften der Thüringer Universitäts- und Landesbibliothek Jena... Bd. 3"
+      />
+      <br/>
+      <input
+        type="button"
+        data-value="HSP-bbc8743c-af65-3493-86bc-f2cb3953a357.xml"
+        data-type="hsp:description"
+        data-permalink="http://example.com/foobar"
+        data-query="leipzig" 
+        value="HSP Description: Statutenbuch des Kleinen Fürstenkollegs der Universität Leipzig"
+      />
+      <br/>
+      <input
+        type="button"
+        data-value="loremIpsum_beschreibung.xml"
+        data-type="hsp:description"
+        data-permalink="http://loremIpsum.de"
+        value="HSP Description: Lorem Ipsum"
+      />
+      <br/>
+      <input
+        type="button"
+        data-value="moskau_norm.xml"
+        data-type="hsp:description"
+        data-permalink="http://moskau.de"
+        value="HSP Description: Moskau Normdata"
+      />
+      <br/>
+      <input
+        type="button"
+        data-value="https://iiif.biblissima.fr/collections/collection/66795da927060c0ddf3d6342"
+        data-type="iiif:manifest"
+        data-id="hsp-window-"
+        value="IIIF Catalog: biblissima"
+      />
+      <br/>
+      <input
+        type="button"
+        data-value="_obj_testdatenset_TEI-HSP.xml"
+        data-type="hsp:description"
+        data-permalink="http://register.de"
+        value="HSP Description Collection: Register"
+      />
+      <br/>
+      <input
+        type="button"
+        data-value="description_retro.xml"
+        data-type="hsp:description_retro"
+        data-permalink="http://retrodescription.de"
+        value="HSP Retro: Description"
+      />
+    </div>
+  </div>
+  <div id="workspace-container"></div>
+
+  <script src="hsp-fo-workspace.js"></script>
+  <script>
+
+    const config = {
+      hspTeiEndpoint: 'http://localhost:8080',
+      manifestEndpoint: 'http://localhost:8080',
+      kodEndpoint: 'http://localhost:8080',
+      // persistStore: false
+    }
+
+    let workspace
+    async function main() {
+      workspace = createHspWorkspace(config)
+      
+      workspace.addEventListener('resourceRemovedFromMirador', e => {
+        // defer updating the resource list until the event was processed by workspace
+        setTimeout(updateResourceList, 0)
+      })
+
+      workspace.addEventListener('openAuthorityIdInSearchClicked', (e) => {
+        console.log('event fired:', e);
+      })
+
+      workspace.addEventListener('miradorWindowSizeChanged', (e) => {
+        console.log('event fired:', e);
+      })
+
+      workspace.addEventListener('miradorWindowSizeChanged', (e) => {
+        console.log('event fired:', e);
+      })
+
+
+      updateResourceList()
+      // use for lighthouse a11y testing:
+      // resourceList.querySelectorAll('input').forEach(input => {
+      //   handleResourceClick({ target: input })
+      // })
+      updateAreaList()
+
+      await workspace.mount({
+        main: document.getElementById('workspace-container')
+      })
+    }
+
+    function updateResourceList() {
+      resourceList.querySelectorAll('input').forEach(input => {
+        input.onclick = handleResourceClick
+      })
+    }
+
+    let areaCount = 2
+    function updateAreaList() {
+      areaList.innerHTML = ''
+      const areaNames = workspace.getAreaNames()
+      const currentName = workspace.getCurrentAreaName()
+
+      areaNames.forEach(name => {
+        const switchButton = document.createElement('span')
+        switchButton.innerText = name === 'default' ? 'area-1' : name
+        switchButton.classList.add('area-btn')
+        if (name === currentName)
+          switchButton.classList.add('area-btn-selected')
+        switchButton.onclick = e => {
+          workspace.setCurrentArea(name)
+          updateAreaList()
+        }
+
+        const deleteButton = document.createElement('button')
+        deleteButton.innerText = '-'
+        deleteButton.onclick = e => {
+          workspace.deleteArea(name)
+          updateAreaList()
+        }
+        
+        const areaTools = document.createElement('div')
+        name === 'default'
+          ? areaTools.append(switchButton)
+          : areaTools.append(switchButton, deleteButton)
+        
+        areaList.appendChild(areaTools)
+      })
+
+      const createButton = document.createElement('button')
+      createButton.innerText = '+'
+      createButton.onclick = e => {
+        workspace.createArea(`area-${areaCount++}`)
+        updateAreaList()
+      }
+
+      areaList.append(createButton)
+    }
+
+    function changeArea(e) {
+      e.preventDefault()
+    }
+
+    function handleResourceClick(e) {
+      const value = e.target.getAttribute('data-value')
+      const type = e.target.getAttribute('data-type')
+      const permalink = e.target.getAttribute('data-permalink') || undefined
+      const query = e.target.getAttribute('data-query') || undefined
+      const kodId = e.target.getAttribute('data-kodid') || undefined
+      if (type === 'iiif:manifest') {
+        const id = e.target.getAttribute('data-id')
+
+        workspace.addResource({ id: id + Date.now(), manifestId: value, type, permalink, query, kodId })
+      }
+      else {
+        workspace.addResource({ id: value, type, permalink, query, kodId})
+      }
+    }
+
+    function setFullscreen() {
+      workspace.setFullscreen()
+    }
+
+    function toggleAlbum() {
+      workspace.toggleAlbum()
+    }
+
+    function setElastic() {
+      workspace.setWindowType('elastic')
+    }
+
+    function setMosaic() {
+      workspace.setWindowType('mosaic')
+    }
+
+    function openJumpToWindow() {
+      workspace.setJumpToWindowDialogOpen(true)
+    }
+    main()
+
+  </script>
+</body>
+</html>
